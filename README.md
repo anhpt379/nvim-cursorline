@@ -1,9 +1,6 @@
-# nvim-cursorline
+# nvim-cursorword
 
-Highlight words and lines on the cursor for Neovim 
-
-- Underlines the word under the cursor.
-- Show / hide cursorline in connection with cursor moving.
+Highlight words under the cursor for Neovim 
 
 ![demo](https://user-images.githubusercontent.com/42740055/102508634-f4d26c80-40c8-11eb-90af-142a7a63837d.gif)
 
@@ -16,6 +13,7 @@ You can override cursor highlighting by defining `CursorWord` group and disablin
 ## Acknowledgments
 Thanks goes to these people/projects for inspiration:
 
+- [yamatsum/nvim-cursorline](https://github.com/yamatsum/nvim-cursorline)
 - [delphinus/vim-auto-cursorline](https://github.com/delphinus/vim-auto-cursorline)
 - [itchyny/vim-cursorword](https://github.com/itchyny/vim-cursorword)
 
