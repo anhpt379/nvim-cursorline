@@ -32,7 +32,9 @@ function M.matchadd()
 end
 
 function M.cursor_moved()
-  M.matchadd()
+  if vim.api.nvim_get_mode().mode == 'n' then
+    M.matchadd()
+  end
 end
 
 return M
